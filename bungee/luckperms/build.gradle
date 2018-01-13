@@ -16,11 +16,9 @@
  */
 
 repositories {
-    maven {
-        url "https://repo.lucko.me/"
-    }
+    mavenCentral()
 }
 
 dependencies {
-    compileOnly group: "me.lucko.luckperms", name: "luckperms-api", version: "3.4"
+    compileOnly group: "me.lucko.luckperms", name: "luckperms-api", version: "4.0"
 }
